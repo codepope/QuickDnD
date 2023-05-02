@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2252DA822A01ABF90070706D /* QuickDnDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252DA812A01ABF90070706D /* QuickDnDApp.swift */; };
+		2252DA842A01ABF90070706D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252DA832A01ABF90070706D /* ContentView.swift */; };
+		2252DA862A01ABFA0070706D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2252DA852A01ABFA0070706D /* Assets.xcassets */; };
+		2252DA892A01ABFA0070706D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2252DA882A01ABFA0070706D /* Preview Assets.xcassets */; };
+		2252DA8F2A01ABFA0070706D /* QuickDnD Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2252DA8E2A01ABFA0070706D /* QuickDnD Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2252DA942A01ABFA0070706D /* QuickDnDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252DA932A01ABFA0070706D /* QuickDnDApp.swift */; };
+		2252DA962A01ABFA0070706D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252DA952A01ABFA0070706D /* ContentView.swift */; };
+		2252DA982A01ABFB0070706D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2252DA972A01ABFB0070706D /* Assets.xcassets */; };
+		2252DA9B2A01ABFB0070706D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2252DA9A2A01ABFB0070706D /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2252DA902A01ABFA0070706D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2252DA762A01ABF90070706D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2252DA8D2A01ABFA0070706D;
+			remoteInfo = "QuickDnD Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2252DAA12A01ABFB0070706D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2252DA8F2A01ABFA0070706D /* QuickDnD Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2252DA7E2A01ABF90070706D /* QuickDnD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickDnD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2252DA812A01ABF90070706D /* QuickDnDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickDnDApp.swift; sourceTree = "<group>"; };
+		2252DA832A01ABF90070706D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2252DA852A01ABFA0070706D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2252DA882A01ABFA0070706D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2252DA8E2A01ABFA0070706D /* QuickDnD Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QuickDnD Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2252DA932A01ABFA0070706D /* QuickDnDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickDnDApp.swift; sourceTree = "<group>"; };
+		2252DA952A01ABFA0070706D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2252DA972A01ABFB0070706D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2252DA9A2A01ABFB0070706D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2252DA7B2A01ABF90070706D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2252DA8B2A01ABFA0070706D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2252DA752A01ABF90070706D = {
+			isa = PBXGroup;
+			children = (
+				2252DA802A01ABF90070706D /* QuickDnD */,
+				2252DA922A01ABFA0070706D /* QuickDnD Watch App */,
+				2252DA7F2A01ABF90070706D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2252DA7F2A01ABF90070706D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2252DA7E2A01ABF90070706D /* QuickDnD.app */,
+				2252DA8E2A01ABFA0070706D /* QuickDnD Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2252DA802A01ABF90070706D /* QuickDnD */ = {
+			isa = PBXGroup;
+			children = (
+				2252DA812A01ABF90070706D /* QuickDnDApp.swift */,
+				2252DA832A01ABF90070706D /* ContentView.swift */,
+				2252DA852A01ABFA0070706D /* Assets.xcassets */,
+				2252DA872A01ABFA0070706D /* Preview Content */,
+			);
+			path = QuickDnD;
+			sourceTree = "<group>";
+		};
+		2252DA872A01ABFA0070706D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2252DA882A01ABFA0070706D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2252DA922A01ABFA0070706D /* QuickDnD Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				2252DA932A01ABFA0070706D /* QuickDnDApp.swift */,
+				2252DA952A01ABFA0070706D /* ContentView.swift */,
+				2252DA972A01ABFB0070706D /* Assets.xcassets */,
+				2252DA992A01ABFB0070706D /* Preview Content */,
+			);
+			path = "QuickDnD Watch App";
+			sourceTree = "<group>";
+		};
+		2252DA992A01ABFB0070706D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2252DA9A2A01ABFB0070706D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2252DA7D2A01ABF90070706D /* QuickDnD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2252DAA22A01ABFB0070706D /* Build configuration list for PBXNativeTarget "QuickDnD" */;
+			buildPhases = (
+				2252DA7A2A01ABF90070706D /* Sources */,
+				2252DA7B2A01ABF90070706D /* Frameworks */,
+				2252DA7C2A01ABF90070706D /* Resources */,
+				2252DAA12A01ABFB0070706D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2252DA912A01ABFA0070706D /* PBXTargetDependency */,
+			);
+			name = QuickDnD;
+			productName = QuickDnD;
+			productReference = 2252DA7E2A01ABF90070706D /* QuickDnD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2252DA8D2A01ABFA0070706D /* QuickDnD Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2252DA9E2A01ABFB0070706D /* Build configuration list for PBXNativeTarget "QuickDnD Watch App" */;
+			buildPhases = (
+				2252DA8A2A01ABFA0070706D /* Sources */,
+				2252DA8B2A01ABFA0070706D /* Frameworks */,
+				2252DA8C2A01ABFA0070706D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QuickDnD Watch App";
+			productName = "QuickDnD Watch App";
+			productReference = 2252DA8E2A01ABFA0070706D /* QuickDnD Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2252DA762A01ABF90070706D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2252DA7D2A01ABF90070706D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					2252DA8D2A01ABFA0070706D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 2252DA792A01ABF90070706D /* Build configuration list for PBXProject "QuickDnD" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2252DA752A01ABF90070706D;
+			productRefGroup = 2252DA7F2A01ABF90070706D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2252DA7D2A01ABF90070706D /* QuickDnD */,
+				2252DA8D2A01ABFA0070706D /* QuickDnD Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2252DA7C2A01ABF90070706D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2252DA892A01ABFA0070706D /* Preview Assets.xcassets in Resources */,
+				2252DA862A01ABFA0070706D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2252DA8C2A01ABFA0070706D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2252DA9B2A01ABFB0070706D /* Preview Assets.xcassets in Resources */,
+				2252DA982A01ABFB0070706D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2252DA7A2A01ABF90070706D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2252DA842A01ABF90070706D /* ContentView.swift in Sources */,
+				2252DA822A01ABF90070706D /* QuickDnDApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2252DA8A2A01ABFA0070706D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2252DA962A01ABFA0070706D /* ContentView.swift in Sources */,
+				2252DA942A01ABFA0070706D /* QuickDnDApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2252DA912A01ABFA0070706D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2252DA8D2A01ABFA0070706D /* QuickDnD Watch App */;
+			targetProxy = 2252DA902A01ABFA0070706D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2252DA9C2A01ABFB0070706D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2252DA9D2A01ABFB0070706D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2252DA9F2A01ABFB0070706D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuickDnD Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = X8L85P2GXC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = QuickDnD;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.codepope.QuickDnD;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepope.QuickDnD.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		2252DAA02A01ABFB0070706D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuickDnD Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = X8L85P2GXC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = QuickDnD;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.codepope.QuickDnD;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepope.QuickDnD.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		2252DAA32A01ABFB0070706D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuickDnD/Preview Content\"";
+				DEVELOPMENT_TEAM = X8L85P2GXC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = QuickDnD;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepope.QuickDnD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2252DAA42A01ABFB0070706D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuickDnD/Preview Content\"";
+				DEVELOPMENT_TEAM = X8L85P2GXC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = QuickDnD;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepope.QuickDnD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2252DA792A01ABF90070706D /* Build configuration list for PBXProject "QuickDnD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2252DA9C2A01ABFB0070706D /* Debug */,
+				2252DA9D2A01ABFB0070706D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2252DA9E2A01ABFB0070706D /* Build configuration list for PBXNativeTarget "QuickDnD Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2252DA9F2A01ABFB0070706D /* Debug */,
+				2252DAA02A01ABFB0070706D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2252DAA22A01ABFB0070706D /* Build configuration list for PBXNativeTarget "QuickDnD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2252DAA32A01ABFB0070706D /* Debug */,
+				2252DAA42A01ABFB0070706D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2252DA762A01ABF90070706D /* Project object */;
+}
