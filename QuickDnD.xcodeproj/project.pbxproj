@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2252004E2A0592AB00C290A0 /* CocoaMQTT in Frameworks */ = {isa = PBXBuildFile; productRef = 2252004D2A0592AB00C290A0 /* CocoaMQTT */; };
 		2252DA822A01ABF90070706D /* QuickDnDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252DA812A01ABF90070706D /* QuickDnDApp.swift */; };
 		2252DA842A01ABF90070706D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252DA832A01ABF90070706D /* ContentView.swift */; };
 		2252DA862A01ABFA0070706D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2252DA852A01ABFA0070706D /* Assets.xcassets */; };
@@ -60,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2252004E2A0592AB00C290A0 /* CocoaMQTT in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +149,9 @@
 				2252DA912A01ABFA0070706D /* PBXTargetDependency */,
 			);
 			name = QuickDnD;
+			packageProductDependencies = (
+				2252004D2A0592AB00C290A0 /* CocoaMQTT */,
+			);
 			productName = QuickDnD;
 			productReference = 2252DA7E2A01ABF90070706D /* QuickDnD.app */;
 			productType = "com.apple.product-type.application";
@@ -195,6 +200,9 @@
 				Base,
 			);
 			mainGroup = 2252DA752A01ABF90070706D;
+			packageReferences = (
+				2252004C2A0592AB00C290A0 /* XCRemoteSwiftPackageReference "CocoaMQTT" */,
+			);
 			productRefGroup = 2252DA7F2A01ABF90070706D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -524,6 +532,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2252004C2A0592AB00C290A0 /* XCRemoteSwiftPackageReference "CocoaMQTT" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/emqx/CocoaMQTT";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2252004D2A0592AB00C290A0 /* CocoaMQTT */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2252004C2A0592AB00C290A0 /* XCRemoteSwiftPackageReference "CocoaMQTT" */;
+			productName = CocoaMQTT;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2252DA762A01ABF90070706D /* Project object */;
 }
