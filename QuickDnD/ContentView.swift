@@ -99,11 +99,13 @@ struct ContentView: View {
                 }
             }
     
+    
     func send(v:String) {
         if !connected {
             self.connect()
         }
         self.mqttClient.publish("dnd/0001/status", withString:v, qos: .qos1, retained: true)
+        QuickDnDConnectionManager.shared.send(v)
     }
 }
 

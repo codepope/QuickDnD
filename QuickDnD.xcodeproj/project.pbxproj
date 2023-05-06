@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2252004E2A0592AB00C290A0 /* CocoaMQTT in Frameworks */ = {isa = PBXBuildFile; productRef = 2252004D2A0592AB00C290A0 /* CocoaMQTT */; };
+		225200512A06EB8F00C290A0 /* QuickDnDConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225200502A06EB8F00C290A0 /* QuickDnDConnectionManager.swift */; };
+		225200522A06EB8F00C290A0 /* QuickDnDConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225200502A06EB8F00C290A0 /* QuickDnDConnectionManager.swift */; };
 		2252DA822A01ABF90070706D /* QuickDnDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252DA812A01ABF90070706D /* QuickDnDApp.swift */; };
 		2252DA842A01ABF90070706D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252DA832A01ABF90070706D /* ContentView.swift */; };
 		2252DA862A01ABFA0070706D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2252DA852A01ABFA0070706D /* Assets.xcassets */; };
@@ -44,6 +46,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		225200502A06EB8F00C290A0 /* QuickDnDConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickDnDConnectionManager.swift; sourceTree = "<group>"; };
 		2252DA7E2A01ABF90070706D /* QuickDnD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickDnD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2252DA812A01ABF90070706D /* QuickDnDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickDnDApp.swift; sourceTree = "<group>"; };
 		2252DA832A01ABF90070706D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,9 +78,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2252004F2A06EB4000C290A0 /* QuickDnD Connection */ = {
+			isa = PBXGroup;
+			children = (
+				225200502A06EB8F00C290A0 /* QuickDnDConnectionManager.swift */,
+			);
+			path = "QuickDnD Connection";
+			sourceTree = "<group>";
+		};
 		2252DA752A01ABF90070706D = {
 			isa = PBXGroup;
 			children = (
+				2252004F2A06EB4000C290A0 /* QuickDnD Connection */,
 				2252DA802A01ABF90070706D /* QuickDnD */,
 				2252DA922A01ABFA0070706D /* QuickDnD Watch App */,
 				2252DA7F2A01ABF90070706D /* Products */,
@@ -240,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2252DA842A01ABF90070706D /* ContentView.swift in Sources */,
+				225200512A06EB8F00C290A0 /* QuickDnDConnectionManager.swift in Sources */,
 				2252DA822A01ABF90070706D /* QuickDnDApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2252DA962A01ABFA0070706D /* ContentView.swift in Sources */,
+				225200522A06EB8F00C290A0 /* QuickDnDConnectionManager.swift in Sources */,
 				2252DA942A01ABFA0070706D /* QuickDnDApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
