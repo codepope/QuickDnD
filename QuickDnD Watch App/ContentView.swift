@@ -13,10 +13,10 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Button("Off") {}.foregroundColor(status == 0 ? Color.red:Color.black)
-                    Button("Clear") {}.foregroundColor(status == 1 ? Color.red:Color.black)
-                    Button("Enter") {}.foregroundColor(status == 2 ? Color.red:Color.black)
-                    Button("Do Not Disturb") {}.foregroundColor(status == 3 ? Color.red:Color.black)
+            Button("Off") {       connectivityManager.send("off") }.foregroundColor(status == 0 ? Color.red:Color.black)
+            Button("Clear") {      connectivityManager.send("clear")}.foregroundColor(status == 1 ? Color.red:Color.black)
+            Button("Enter") {      connectivityManager.send("enter")}.foregroundColor(status == 2 ? Color.red:Color.black)
+            Button("Do Not Disturb") {      connectivityManager.send("dnd")}.foregroundColor(status == 3 ? Color.red:Color.black)
             }
         .padding()
         .onReceive(connectivityManager.$statusMessage) { message in

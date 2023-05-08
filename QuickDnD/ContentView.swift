@@ -9,7 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     @Environment(\.scenePhase) var scenePhase
-    
+    @ObservedObject private var connectivityManager = QuickDnDConnectionManager.shared
+
     let mqttClient = CocoaMQTT(clientID: "dndbuttonswift-" + String(ProcessInfo().processIdentifier), host: "jonah.local", port: 1883)
         
     @State public var connected:Bool=false
@@ -61,7 +62,11 @@ struct ContentView: View {
                 
             }.onAppear(perform: {
                 self.connect()
-            })
+            }).onReceive(connectivityManager.$statusMessage) { message in
+                if let newstatus=message?.status {
+                    send(v:newstatus)
+                    }
+                }
         }
     }
                        
